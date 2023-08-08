@@ -1,0 +1,5 @@
+.chat-screen {
+    display: flex;
+    justify-content: space-evenly;
+}
+
