@@ -13,6 +13,12 @@
 .status-bar__column:first-child span {
     margin-right:5px;
 }
+.status-bar__column-title  {
+    font-size: 28px;
+    font-weight: 300px;
+    font-style: bold;
+    color:black;
+}
 .status-bar__column:nth-child(2) {
     display:flex;
     justify-content: center;

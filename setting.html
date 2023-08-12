@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find-screen</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <div class="status-bar__column">
+        <a href="more.html"><i class="fa-solid fa-chevron-left"></i></a>
+      </div>
+      <div class="status-bar__column-title">Settings</div>
+      <div class="status-bar__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-bullhorn fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Notices</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-flask fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Kakao Lab</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-circle-exclamation fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Version</h1>
+          </div>
+        </div>
+        <div class="setting-component__column">
+          <h4 class="setting-component__title">Latest Version</h4>
+        </div>
+      </div>
+      <div class="setting-suggestions"></div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-lock fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Privacy</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-bell fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Notifications</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-user fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Friends</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-comment fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Chats</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-display fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">
+              Display <i class="fa-solid fa-n fa-xs"></i>
+            </h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-circle-exclamation fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">
+              Themes <i class="fa-solid fa-n fa-xs"></i>
+            </h1>
+          </div>
+        </div>
+        <div class="setting-component__column">
+          <h4 class="setting-component__title">Default theme</h4>
+        </div>
+      </div>
+      <div class="setting-component">
+        <div class="setting-component__column">
+          <i class="fa-solid fa-phone fa-2x setting-icon"></i>
+          <div>
+            <h1 class="setting-component__title">Call</h1>
+          </div>
+        </div>
+        <div class="setting-component__column"></div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav_btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>
+        Your screen is too big. <br />
+        Decrease the size(width).
+      </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b310f42823.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
